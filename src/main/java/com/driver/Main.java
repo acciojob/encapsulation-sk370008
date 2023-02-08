@@ -5,8 +5,8 @@ public class Main {
         RWOnly rw1 = new RWOnly();
 //        rw1.name = "Shoaib";
 //       this error shows when trying to access private member 'name' has private access in 'com.driver.RWOnly'
-        rw1.setter("Shoaib");
-        rw1.getter();
-//        System.out.println(rw1.getter());
+        rw1.setName("Shoaib");
+        rw1.getName();
+//        System.out.println(rw1.getName());
     }
 }
